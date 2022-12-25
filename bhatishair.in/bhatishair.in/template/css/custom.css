@@ -1,0 +1,312 @@
+/* Add here all your CSS customizations */
+
+/* theme-global */
+
+.box {
+    -webkit-box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-over .dropdown-content {
+    -webkit-box-shadow: 0 6px 20px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.175);
+}
+
+#top-header.fixed {
+    -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+#top-header.top-header-fixed {
+    background-color: rgba(51, 51, 51, 0.5);
+}
+
+#main-nav .dropdown:hover>.dropdown-menu {
+    -webkit-box-shadow: 0 6px 20px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.175);
+}
+
+#main-nav .dropdown-submenu:hover>.dropdown-menu {
+    -webkit-box-shadow: 0 6px 20px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.175);
+}
+
+.home-2 .tiva-slideshow-wrapper .tiva-caption .tiva-caption-lr {
+    background-color: rgba(231, 76, 60, 0.5);
+}
+
+.home-2 .testimoniol-slider:after {
+    background-color: rgba(51, 51, 51, 0.75);
+}
+
+.home-3 .section-testimoniol:after {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.home-3 #footer:after {
+    background-color: none;
+}
+
+.block-gallery a {
+    -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+.block-gallery a:hover:before {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.tiva-popup-screen {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.multi-color {
+    -webkit-box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.05);
+}
+
+.multi-color .handle {
+    -webkit-box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* theme-animate */
+
+.effect>.image-wrap:before {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.effect>.image-wrap:after {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* theme-blog */
+
+.blog-posts .post-meta {
+    background-color: rgba(51, 51, 51, 0.54);
+}
+
+.blog-detail .post-meta {
+    background-color: rgba(51, 51, 51, 0.54);
+}
+
+.my_head_font {
+    font-family: "Britannic Bold";
+    font-size: 28px;
+    font-weight: 800;
+    color: #6c6967;
+    text-align: center;
+}
+
+.head_base {
+    width: 200px;
+    height: 40px;
+    background-color: #a9dcc9;
+    border-radius: 0px 30px 30px 0px;
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+
+.head_base ul {
+    list-style: none;
+    padding: 5px 15px;
+    min-width: 400px;
+    font-size: 18px;
+}
+
+.head_base ul li {
+    padding: 0px 5px;
+    display: inline-block;
+}
+
+.head_base ul li a {
+    color: #ffffff;
+}
+
+.head_base ul li a:hover {
+    color: #41a07c;
+}
+
+.head_base ul li:first-child:after {
+    margin-left: 10px;
+    content: "/";
+    color: #696564;
+}
+
+/* =========== section top header ============= */
+
+.header-topbar .head_ul {
+    padding-top: 10px;
+}
+
+.header-topbar .head_ul li {
+    display: inline-block;
+    margin-right: 15px;
+    padding-left: 15px;
+    color: #ffffff;
+    border-left: 1px solid #bfbfbf;
+}
+
+.header-topbar .head_ul li:first-child {
+    border-left: none;
+}
+
+.header-topbar .head_ul li a {
+    color: #ffffff;
+}
+
+/* ====///////======= section top header ======/////////======= */
+
+/* =========== section-my_service ============= */
+
+.section-my_service {}
+
+.section-my_service .service_box {
+    width: 80%;
+    margin: auto;
+}
+
+.section-my_service .service_box img {
+    width: 100%;
+    height: ;
+}
+
+.section-my_service .service_box p {
+    text-align: center;
+    color: #636260;
+    text-transform: uppercase;
+}
+
+/* ======///////////===== section-my_service =========//////////==== */
+
+#contact {
+    padding: 60px 0;
+}
+
+#contact .contact-info {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#contact .contact-info i {
+    font-size: 48px;
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #00adef;
+}
+
+#contact .contact-info address,
+#contact .contact-info p {
+    margin-bottom: 0;
+    color: #000;
+}
+
+#contact .contact-info h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #999;
+}
+
+#contact .contact-info a {
+    color: #000;
+}
+
+#contact .contact-info a:hover {
+    color: #00adef;
+}
+
+#contact .contact-address,
+#contact .contact-phone,
+#contact .contact-email {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    #contact .contact-address,
+    #contact .contact-phone,
+    #contact .contact-email {
+        padding: 20px 0;
+    }
+}
+
+@media (min-width: 768px) {
+    #contact .contact-phone {
+        border-left: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+    }
+}
+
+#contact .form #sendmessage {
+    color: #00adef;
+    border: 1px solid #00adef;
+    display: none;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#contact .form #errormessage {
+    color: red;
+    display: none;
+    border: 1px solid red;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#contact .form #sendmessage.show,
+#contact .form #errormessage.show,
+#contact .form .show {
+    display: block;
+}
+
+#contact .form .validation {
+    color: red;
+    display: none;
+    margin: 0 0 20px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+#contact .form input,
+#contact .form textarea {
+    padding: 10px 14px;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 15px;
+}
+
+#contact .form button[type="submit"] {
+    background: #7da3c1;
+    border: 0;
+    padding: 10px 30px;
+    color: #fff;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+#contact .form button[type="submit"]:hover {
+    background: #13a456;
+}
+
+/* =========== section-footer form ============= */
+
+.footer_form {
+    width: 100%;
+    margin: auto;
+}
+
+.footer_form .form-group .form-control {
+    border: 1px solid #9d9d9d;
+    margin-bottom: 20px;
+}
+
+.footer_form .form-group .form-control::placeholder {
+    color: #5d5d5d;
+}
+
+/* =====////////////====== section-footer form =========/////////==== */
